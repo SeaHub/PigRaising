@@ -1,0 +1,126 @@
+.global_container {
+  height: 100%;
+  /*background-color: #00FFFF;*/
+  background-image: url(https://raw.githubusercontent.com/samrayleung/wechat_pit_images/master/assets/img/background-10.png);
+  position: relative;
+}
+
+.timer_container {
+  position: relative;
+  display: flex;
+  flex: 2;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  text-align: center;
+  transition: all .5s;
+  z-index: 1;
+  height: 60%;
+  margin-top: 50px;
+}
+
+.timer_time-wrap {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 200px;
+  text-align: center;
+  transition: all .3s;
+  margin-top: 50px;
+}
+
+.timer_progress {
+  position: absolute;
+  top: 0;
+  width: 100px;
+  height: 200px;
+  overflow: hidden;
+  transition: all .3s;
+}
+
+.timer_progress_mask {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  border: 3px solid white;
+  opacity: .5;
+  border-radius: 50%;
+}
+
+.timer_left {
+  left: 0;
+}
+
+.timer_right {
+  right: 0;
+}
+
+.timer_circle {
+  position: absolute;
+  top: 0;
+  width: 200px;
+  height: 200px;
+  border: 3px solid transparent;
+  border-radius: 50%;
+  transition: all .3s;
+}
+
+.timer_circle--left {
+  left: 0;
+  border-left: 3px solid #FFCC33;
+  border-bottom: 3px solid #FFCC33;
+  transform: rotate(45deg);
+}
+
+.timer_circle--right {
+  right: 0;
+  border-right: 3px solid #FFCC33;
+  border-bottom: 3px solid #FFCC33;
+  transform: rotate(-45deg);
+}
+
+.timer_time {
+  font-size: 40px;
+  color: black;
+  font-weight: lighter;
+  transition: font-size .3s;
+}
+
+.textContainer {
+  text-align: center;
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  box-sizing: border-box;
+}
+
+.textStyle {
+  font-size: 35px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.icon_left {
+  float: left;
+  margin: 15rpx;
+}
+
+.icon_right {
+  padding-top: 15rpx; 
+  margin-left: 665rpx;
+}
+
+.bottom_button {
+  position: absolute;
+  bottom: 50px;
+  width: 30%;
+  margin-left: 35%; 
+}

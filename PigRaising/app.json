@@ -1,0 +1,13 @@
+{
+  "pages":[
+    "pages/Index/Index",
+    "pages/Farm/Farm",
+    "pages/Week/Week"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "PigRaising",
+    "navigationBarTextStyle":"black"
+  }
+}

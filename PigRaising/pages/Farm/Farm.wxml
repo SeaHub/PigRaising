@@ -1,0 +1,56 @@
+<view class="page">
+  <modal title="Tips" confirm-text="confirm" hidden="{{modalHidden}}" no-cancel bindconfirm="modalChange">
+    <view>{{modalMsg}}</view>
+  </modal>
+  <view class="btn">
+    <view class="icon_left">
+      <image style="width: 30px; height: 30px;" bindtap="leftBtnClicked"
+             src="https://raw.githubusercontent.com/samrayleung/wechat_pit_images/master/assets/img/left.png"></image>
+    </view>
+    <view class="icon_right">
+      <image style="width: 30px; height: 30px; " bindtap="rightBtnClicked"
+             src="https://raw.githubusercontent.com/samrayleung/wechat_pit_images/master/assets/img/right.png"></image>
+    </view>
+    <label class="label-2__text">
+      <text>{{dateText}}</text>
+    </label>
+  </view>
+  <view class="page__bd">
+    <view class="section">
+      <view class="flex-wrp">
+        <view class="flex-item">
+          <image style="width: 50px; height: 50px; " src="{{PigImage1}}"></image>
+          <image style="width: 50px; height: 50px; " src="{{PigImage2}}"></image>
+        </view>
+        <view class="flex-item">
+          <image style="width: 50px; height: 50px;" src="{{PigImage3}}"></image>
+          <image style="width: 50px; height: 50px;" src="{{PigImage4}}"></image>
+        </view>
+      </view>
+    </view>
+    <view class="section">
+      <view class="flex-wrp" style="flex-direction:column;">
+        <view class="flex-item center">
+          <image style="width: 50px; height: 50px;" src="{{PigImage5}}"></image>
+          <image style="width: 50px; height: 50px;" src="{{PigImage6}}"></image>
+        </view>
+        <view class="flex-item center">
+          <image style="width: 50px; height: 50px;" src="{{PigImage7}}"></image>
+          <image style="width: 50px; height: 50px;" src="{{PigImage8}}"></image>
+        </view>
+      </view>
+    </view>
+    <view class="section another">
+      <view class="flex-wrp">
+        <view class="flex-item">
+          <image style="width: 50px; height: 50px;" src="{{PigImage9}}"></image>
+          <image style="width: 50px; height: 50px;" src="{{PigImage10}}"></image>
+        </view>
+        <view class="flex-item">
+          <image style="width: 50px; height: 50px;" src="{{PigImage11}}"></image>
+          <image style="width: 50px; height: 50px;" src="{{PigImage12}}"></image>
+        </view>
+      </view>
+    </view>
+  </view>
+</view> 

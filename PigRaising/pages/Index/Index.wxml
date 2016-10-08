@@ -1,0 +1,41 @@
+<view class="global_container">
+  <modal title="Tips" confirm-text="confirm" hidden="{{modalHidden2}}" no-cancel bindconfirm="modalChange2">
+    <view>{{modal2Msg}}</view>
+  </modal>
+  <modal title="Tips" confirm-text="confirm" cancel-text="cancel" hidden="{{killPigModalHidden}}"
+         bindconfirm="killPigModalChange" bindcancel="killPigModalChange">Are you sure to kill your pig？</modal>
+  <view class="icon_left">
+    <image style="width: 30px; height: 30px;" bindtap="navigateToFarm"
+           src="https://raw.githubusercontent.com/samrayleung/wechat_pit_images/master/assets/img/icon_left.png"></image>
+  </view>
+  <view class="icon_right">
+    <image style="width: 32px; height: 32px; " bindtap="navigateToFarm" id="332"
+           src="https://raw.githubusercontent.com/samrayleung/wechat_pit_images/master/assets/img/icon_right.png"></image>
+  </view>
+  <view class="timer_container">
+    <view class="timer_time-wrap">
+      <view class="timer_progress_mask"></view>
+      <view class="timer_progress timer_left">
+        <view class="timer_circle timer_circle--left" style="transform: rotate({{leftDegree}}deg);"></view>
+      </view>
+      <view class="timer_progress timer_right">
+        <view class="timer_circle timer_circle--right" style="transform: rotate({{rightDegree}}deg);"></view>
+      </view>
+      <image style="{{pigSize}}" bindtouchmove="navigateToFarm" src="{{pigImg}}"></image>
+    </view>
+  </view>
+  <view class="textContainer">
+    <text class="textStyle">{{showTime}}</text>
+  </view>
+  <view class="bottom_button">
+    <button type="primary" disabled="{{isBtnDisabled}}" bindtap="startBtnClicked" size="mini">{{btnText}}</button>
+    <action-sheet hidden="{{actionSheetHidden}}" bindchange="actionSheetChange">
+      <block wx:for="{{actionSheetItems}}">
+        <action-sheet-item id="{{index}}" class="item" bindtap="bindItemTap" data-name="{{item}}">{{item}}</action-sheet-item>
+      </block>
+      <action-sheet-cancel class="cancel">Cancel</action-sheet-cancel>
+    </action-sheet>
+    <modal title="Tips" confirm-text="confirm" cancel-text="cancel" hidden="{{modalHidden}}" bindconfirm="modalChange"
+           bindcancel="modalChange">Are you sure to start？</modal>
+  </view>
+</view>
