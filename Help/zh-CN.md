@@ -1,6 +1,6 @@
 * # PigRaising
 
-  这是一个在iFan与Segmentfault举办的广州黑客马拉松上产生的微信小程序，用于专注管理时间。
+  这是一个在iFanr与Segmentfault举办的广州黑客马拉松上产生的微信小程序，用于专注管理时间。
 
   - 程序小览
 
@@ -48,7 +48,7 @@
       - [Seahub](https://seahub.github.io)
       - [Samray](https://github.com/samrayleung)
       - [Nomadcheng](https://github.com/Nomadcheng)
-    - iFan x Segmentfault
+    - iFanr x Segmentfault
       - 感谢他们举办了广州第一场微信小程序的黑客马拉松，让我们有机会创造这个小程序!
     - 支持者
       - 感谢你们使用我们的小程序！

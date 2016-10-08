@@ -1,6 +1,6 @@
 * # PigRaising
 
-  A Little Wechat App Created On A Hackathon Held By iFan x Segmentfault in GuangZhou.
+  A Little Wechat App Created On A Hackathon Held By iFanr x Segmentfault in GuangZhou.
 
   - [中文文档](https://github.com/SeaHub/PigRaising/blob/master/Help/zh-CN.md)
 
@@ -50,7 +50,7 @@
       - [Seahub](https://seahub.github.io)
       - [Samray](https://github.com/samrayleung)
       - [Nomadcheng](https://github.com/Nomadcheng)
-    - iFan x Segmentfault
+    - iFanr x Segmentfault
       - Thanks to the hackathon held by them allows us to create the demo!
     - Supporters
       - Thanks to you all who downloaded our demo!
