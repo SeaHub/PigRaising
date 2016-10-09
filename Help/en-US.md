@@ -23,6 +23,7 @@
     - Pig Farm History: To display the pig you raised befored(Completed).
     - Kill Pig Event: To monitor the app lifecycle. Once you switch it to the background, switch view or exit the app, the pig will die along with playing a horrible audio(Completed).
     - Week Overview: To display how many ~~pigs~~ time you ~~raised~~ focused this week(Developing).
+    - Storage Optimization: To reduce the flow wasted on this app(Developing).
     - Share: Use to share on the Wechat/ QQ/ Sina(Uncompleted).
     - Steel Pigs: To steal your friends pigs(Uncompleted).
 

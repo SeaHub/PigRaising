@@ -2,7 +2,10 @@
 
   A Little Wechat App Created On A Hackathon Held By iFanr x Segmentfault in GuangZhou.
 
-  - [中文文档](https://github.com/SeaHub/PigRaising/blob/master/Help/zh-CN.md)
+  - Related Link
+
+    - [中文文档](https://github.com/SeaHub/PigRaising/blob/master/Help/zh-CN.md)
+    - [相关博文 - 我所理解的小程序(@Seahub)](https://seahub.github.io/2016/10/09/%E6%88%91%E6%89%80%E7%90%86%E8%A7%A3%E7%9A%84%E5%B0%8F%E7%A8%8B%E5%BA%8F/)
 
   - Quick Looking
 
@@ -25,6 +28,7 @@
     - Pig Farm History: To display the pig you raised befored(Completed).
     - Kill Pig Event: To monitor the app lifecycle. Once you switch it to the background, switch view or exit the app, the pig will die along with playing a horrible audio(Completed).
     - Week Overview: To display how many ~~pigs~~ time you ~~raised~~ focused this week(Developing).
+    - Storage Optimization: To reduce the flow wasted on this app(Developing).
     - Share: Use to share on the Wechat/ QQ/ Sina(Uncompleted).
     - Steel Pigs: To steal your friends pigs(Uncompleted).
 
